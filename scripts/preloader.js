@@ -1,8 +1,8 @@
 // declare an array of assets for preload
 const assetsForPreload = [
     { src: 'assets/red-circle.svg', type: 'image' },
-   // { src: 'assets/potato01.png', type: 'image' },
-   // { src: 'assets/potato02.png', type: 'image' },
+    { src: 'assets/space_bg1.png', type: 'image' },
+    { src: 'assets/space_bg_dust1.png', type: 'image' },
    // { src: 'assets/potato03.png', type: 'image' },
    // { src: 'assets/track01.mp3', type: 'sound' },
    // { src: 'assets/track02.mp3', type: 'sound' },

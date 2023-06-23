@@ -1,0 +1,29 @@
+body {
+    background: black;
+    overflow: hidden;
+}
+
+#main-content {
+    background-image: url("/assets/space_bg1.png"),
+    url("/assets/space_bg_dust1.png");
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+}
+
+
+#main-canvas {
+    background: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid white;
+    opacity: 0.75;
+}
+
+
+#player, #background, #enemy {
+    display: none;
+}
+
