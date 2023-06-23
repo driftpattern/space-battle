@@ -52,6 +52,7 @@ function preloadAssets() {
       element.addEventListener('load', () => {
         preloadedAssets[asset.src] = element;
         assetsLoaded++;
+        console.log("loaded: " + asset); // added this
         if (assetsLoaded === totalAssets) {
           resolve();
         }
