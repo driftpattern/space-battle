@@ -14,10 +14,12 @@ preloadAssets()
   });
 
 
+
 function gameLoop() {
-  const canvas = document.getElementById("main-canvas");
-  const ctx = canvas.getContext("2d");
-  canvas.width = 1280;
-  canvas.height = 720;
+  console.log("called: gameLoop()");
+  // const canvas = document.getElementById("main-canvas");
+  // const ctx = canvas.getContext("2d");
+  // canvas.width = 1280;
+  // canvas.height = 720;
 }
 

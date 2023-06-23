@@ -1,3 +1,5 @@
+/* @import url('../assets/8bit-wonder'); */
+
 /* BEGIN: styles for the preloader "curtain" */
 #curtain {
     display: block;
@@ -22,11 +24,42 @@ body {
   }
 
 
+
+
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../assets/PressStart2P-Regular.ttf");
+}
+
+
+
+@font-face {
+  font-family: "Emulogic";
+  src: url("../assets/Emulogic-zrEw.ttf");
+}
   
-/* below is just to style the example potatos */
+
+
+
+
+
+
+/* below is just a message at top */
 .message {
   color: #777;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 #image-container {
   display: grid;
